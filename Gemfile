@@ -37,6 +37,8 @@ group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'spring'
+  gem 'mongoid-rspec'
+  gem "spring-commands-rspec"
 end
 
 group :doc do
