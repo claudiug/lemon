@@ -36,6 +36,7 @@ group :development, :test do
   gem "selenium-webdriver", "~> 2.35.1"
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'spring'
 end
 
 group :doc do
