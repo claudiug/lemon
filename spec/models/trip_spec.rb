@@ -1,4 +1,4 @@
-require "spec_helper"
+require "support/mongoid"
 
 describe Trip do 
   it {should have_field(:name)}

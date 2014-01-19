@@ -30,7 +30,6 @@ class Trip
   validates :title, length: {within:(4..20)} 
   validates :long_description, length: {within:(10..500)} 
   validates :short_description, length: {within:(10..100)} 
-  validates :seo_description, length: {within:(10..100)} 
   validates :rating, length: {within:(1..10)} 
   validates :rating, numericality:{only_integer: true}
 
